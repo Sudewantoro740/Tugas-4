@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".button").click(function() {
+				$(".kotak").FadeOut();
+			});
+		});
+	</script>
+	<style type="text/css">
+		.kotak {
+			background: yellow;
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<button id="button">FadeOut</button>
+		<button id="button2">FadeIn</button>
+		<button id="button3">FadeOut to 0,3</button>
+		<div class="kotak"></div>
+	</div>
+</body>
+</html>

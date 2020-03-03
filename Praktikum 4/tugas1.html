@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery-3.4.1.min.js">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".hide").click(function(){
+				$(".foto").hide("slow");
+			});
+			$(".show").click(function(){
+				$(".foto").show("slow");
+			});
+
+			$(".hide2").click(function(){
+				$(".foto2").hide("slow");
+			});
+			$(".show2").click(function(){
+				$(".foto2").show("slow");
+			});
+
+			$(".hide3").click(function(){
+				$(".foto3").hide("slow");
+			});
+			$(".show3").click(function(){
+				$(".foto3").show("slow");
+			});
+		});
+
+	</script>
+	<style type="text/css">
+		.foto {
+			width: 720px;
+			height: 1280px;
+		}
+		.foto2 {
+			width: 720px;
+			height: 1280px;
+		}
+		.foto3 {
+			width: 720px;
+			height: 1280px;
+		}
+	</style>
+</head>
+<body>
+	<p>Tampilan dan Sembunyikan Gambar dengan jquery</p>
+	<div>
+		<input type="button" class="show" value="show">
+		<input type="button" class="hide" value="hide">
+		<div class="foto">
+			<img src="shroud.jpg">
+		</div>
+	</div>
+	<br>
+	<div>
+		<input type="button" class="show2" value="show">
+		<input type="button" class="hide2" value="hide">
+		<div class="foto2">
+			<img src="logo perek.jpeg">
+		</div>
+	</div>
+	<br>
+	<div>
+		<input type="button" class="show3" value="show">
+		<input type="button" class="hide3" value="hide">
+		<div class="foto3">
+			<img src="logoupn.png">
+		</div>
+	</div>
+</body>
+</html>
